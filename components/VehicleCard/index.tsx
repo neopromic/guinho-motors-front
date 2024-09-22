@@ -31,7 +31,7 @@ export const VehicleCard = ({
   carMode,
 }: IVehicleProps) => {
   return (
-    <Card className="w-lg rounded-[0.88rem] hover:shadow-lg">
+    <Card className="min-w-[412px] rounded-[0.88rem] hover:shadow-lg">
       <CardHeader>
         <CardTitle>{name}</CardTitle>
         <CardDescription>{vehicleType}</CardDescription>
@@ -42,7 +42,7 @@ export const VehicleCard = ({
           alt={name + price}
           width={10000}
           height={10000}
-          className="h-64 w-full bg-cover"
+          className="h-64 w-full bg-cover p-4"
         />
         <div className="flex gap-4">
           <div className="flex gap-2 text-muted-foreground">

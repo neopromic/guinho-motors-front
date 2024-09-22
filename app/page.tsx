@@ -13,8 +13,6 @@ import { Search } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Home() {
-  // fazer um array com tipo de carro (sport, suv, ...), nome, se é automatico ou manual, litros, preço
-
   const cars: IVehicleProps[] = [
     {
       id: 0,
@@ -33,6 +31,24 @@ export default function Home() {
       imageURl: '/banner_car.png',
       fuel: '80L',
       carMode: 'Manual',
+    },
+    {
+      id: 1,
+      name: 'Toyota Hilux Srx 2.8',
+      vehicleType: 'SUV',
+      price: 'R$ 215.900,00',
+      imageURl: '/banner_car.png',
+      fuel: '80L',
+      carMode: 'Manual',
+    },
+    {
+      id: 0,
+      name: 'Nissan GT-R',
+      vehicleType: 'Sport',
+      price: 'R$ 215.900,00',
+      imageURl: '/banner_car.png',
+      fuel: '80L',
+      carMode: 'Automático',
     },
   ]
 

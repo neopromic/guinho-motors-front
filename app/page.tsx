@@ -130,7 +130,7 @@ export default function Home() {
         <Flame />
         <h1>Mais comprados</h1>
       </div>
-      <section className="grid grid-cols-1 place-items-center items-center gap-2 px-4 md:grid-cols-2 lg:grid-cols-2">
+      <section className="grid grid-cols-1 place-items-center items-center gap-4 px-4 md:grid-cols-2 lg:grid-cols-2">
         {cars.map(c => (
           <VehicleCard
             key={c.id}

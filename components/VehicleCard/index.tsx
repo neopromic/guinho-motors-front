@@ -31,7 +31,7 @@ export const VehicleCard = ({
   carMode,
 }: IVehicleProps) => {
   return (
-    <Card className="min-w-[412px] rounded-[0.88rem] transition-all hover:shadow-lg">
+    <Card className="w-[356px] rounded-[0.88rem] transition-all hover:shadow-lg">
       <CardHeader>
         <CardTitle>{name}</CardTitle>
         <CardDescription>{vehicleType}</CardDescription>
